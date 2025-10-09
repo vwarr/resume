@@ -52,8 +52,8 @@
       *#name* \
       _#degree _
     ], align(right)[
-      #location \
-      _#date _
+      _#location _ \
+      #date
     ])
     #list(..points)
   ])
@@ -68,12 +68,12 @@
 ) = {
   set block(above: 0.5em, below: 0.75em)
   pad(left: 0.5em, right: 0.5em, box[
-    #grid(columns: (3fr, 1fr), align(left)[
+    #grid(columns: (2fr, 2fr), align(left)[
       *#name* \
       _#role _
     ], align(right)[
-      #date \
-      _#location _
+      _#location _ \
+      #date
     ])
     #list(..points)
   ])

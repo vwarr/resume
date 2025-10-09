@@ -20,14 +20,46 @@
 )
 
 #resume_heading[Experience]
+#let exp_item_verkada() = {
+  set block(above: 0.5em, below: 0.75em)
+  pad(left: 0.5em, right: 0.5em, box[
+    #grid(columns: (2fr, 2fr), align(left)[
+      *Verkada* \
+      _Software Engineer Intern_
+    ], align(right)[
+      _San Mateo, CA_ \ Jun. 2025 - Aug. 2025
+    ])
+    #list(
+      [I worked on preparing the Operator View feature for release using _TypeScript_, _React_, and _Go_],
+      [Added rich text support through markdown for ticket comments, and Standard Operating Procedures],
+      [Implemented tag creation, searching, and attachment to tickets  on the frontend],
+      [Designed and implemented asynchronous CSV export of ticket and their statuses],
+      
+    )
+  ])
+  pad(left: 0.5em, right: 0.5em, box[
+    #grid(columns: (2fr, 2fr), align(left)[
+      _Software Engineer Intern_
+    ], align(right)[
+      Jan. 2025 - Apr. 2025
+    ])
+    #list(
+      [Developed features using _TypeScript_ and _Go_ throughout the entire tech stack, from frontend to firmware],
+      [Used _React_ to implement core features on the frontend of an in-development product],
+      [Improved developer experience by implementing caching, improving build and start times by 40%]
+    )
+  ])
+}
+#exp_item_verkada()
+
 #exp_item(
-  name: "Verkada",
-  role: "Software Engineer Intern",
-  location: "San Mateo, CA",
-  date: "Jan. 2025 - Apr. 2025",
-  [Developed features using _TypeScript_ and _Go_ throughout the entire tech stack, from frontend to firmware],
-  [Used _React_ to implement core features on the frontend of an in-development product],
-  [Improved developer experience by implementing caching, improving build and start times by 40%]
+  name: "NVIDIA",
+  role: "Embedded Software Engineer Intern",
+  location: "Santa Clara, CA",
+  date: "May 2025",
+  [Worked on the JetPack SDK team responsible for maintaining NVIDIA's Ubuntu-based Linux distribution],
+  [Improved the Jetson GPIO library to ensure the correct configuration of pin mux registers through `/dev/mem`],
+  [I decided to end my internship early due to the lack of intellectual and technical stimulation]
 )
 #exp_item(
   name: "MongoDB",
@@ -43,19 +75,9 @@
   role: "Developer",
   location: "Atlanta, GA",
   date: "Aug. 2024 - Present",
-  [Working on an _Agile_ team to create an application for Atlanta 501(c)(3) Motherhood Beyond Bars],
-  [Translating _Figma_ designs from an experienced designer into fully functional _React_ components],
-  [Creating backend functionality using _Node.js_, and employed Server-Side Rendering for optimal user experience],
-)
-#exp_item(
-  name: "Secure Process Intelligence",
-  role: "Embedded Software Engineer",
-  location: "Remote",
-  date: "Jun. 2023 - Present",
-  [Created two internal tools with _Rust_, _React.js_, and _TypeScript_ which reverse engineered proprietary solutions],
-  [Programmed a microcontroller, using _C_ and _Rust_, which uses Modbus to extract
-    data from a monitoring device],
-  [Interfaced with a 4G LTE modem over UART to send collected data to a dashboard for customer viewing]
+  [Worked on an _Agile_ team to create an application for Atlanta 501(c)(3) Motherhood Beyond Bars],
+  [Translated _Figma_ designs from an experienced designer into fully functional _React_ components],
+  [Created backend functionality using _Node.js_, and employed Server-Side Rendering for optimal user experience],
 )
 
 #resume_heading[Projects]
@@ -77,21 +99,6 @@
   skills: "Linux, Docker, Rust, Embedded",
   [Developed a custom frontend for a Nintendo GameBoy emulator],
   [Interacts with low-level _Linux_ APIs such as ioctl and `/dev`],
-)
-
-#resume_heading[Additional Experience and Awards]
-// Re-using this template cause im lazy
-#skill_item(
-  category: "Provost Scholarship",
-  skills: "Prestigious merit scholarship awarded to 60 out-of-state students, from a pool of thousands",
-)
-#skill_item(
-  category: "VIP Member",
-  skills: "Member of the Intelligent Digital Communications VIP on the Systems and Operations subteam"
-)
-#skill_item(
-  category: "Hacklytics 2024",
-  skills: "Placed 2nd in the sports track and 3rd in the healthcare track, against 200 other submissions",
 )
 
 #resume_heading[Technical Skills]
