@@ -59,7 +59,6 @@
   date: "May 2025",
   [Worked on the JetPack SDK team responsible for maintaining NVIDIA's Ubuntu-based Linux distribution],
   [Improved the Jetson GPIO library to ensure the correct configuration of pin mux registers through `/dev/mem`],
-  [I decided to end my internship early due to the lack of intellectual and technical stimulation]
 )
 #exp_item(
   name: "MongoDB",
@@ -86,6 +85,7 @@
   skills: "Networking, Rust",
   [An HTTP reverse-proxy that supports simple JSON configuration, TLS termination, and http/2 and http/3],
   [Takes advantage of Rust's features for fearless process-level concurrency resulting in minimal CPU usage],
+  [Deployed in a production environment to host multiple sites on a single IP address using TLS SNI]
 )
 #project_item(
   name: "ESP Spotify Display",
