@@ -30,7 +30,7 @@
       _San Mateo, CA_ \ Jun. 2025 - Aug. 2025
     ])
     #list(
-      [I worked on preparing the Operator View feature for release using _TypeScript_, _React_, and _Go_],
+      [Worked on preparing the Operator View feature for release using _TypeScript_, _React_, and _Go_],
       [Added rich text support through markdown for ticket comments, and Standard Operating Procedures],
       [Implemented tag creation, searching, and attachment to tickets  on the frontend],
       [Designed and implemented asynchronous CSV export of ticket and their statuses],
