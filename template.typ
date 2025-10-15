@@ -19,12 +19,14 @@
   phone: "123-456-7890",
   email: "you@su.edu",
   site: "github.com/you",
+  linkedin: "igamble",
 ) = {
   align(center, block[
     #name_header(name) \
     #phone |
     #link("mailto:" + email)[#email] |
-    #link("https://" + site)[#site]
+    #link("https://" + site)[#site] |
+    #link("https://linkedin.com/in/" + linkedin)[in/#linkedin]
   ])
   v(5pt)
 }
