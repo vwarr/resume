@@ -1,7 +1,6 @@
-# My Resume ✨😁✨
+# My Resume
 
-My resume! 😁 Whatever is in this repository is what [my website](https://igamble.dev) links to.
+This is my resume!
 
-Built with [✨Typst✨](https://typst.app/)
+Built on a template by the incredible [tsar-boomba](https://github.com/tsar-boomba).
 
-I recommend using [Tinymist](https://github.com/Myriad-Dreamin/tinymist/tree/main) for Typst support in your editor.
