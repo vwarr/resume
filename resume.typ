@@ -26,7 +26,7 @@
   role: "Software Engineering Intern",
   location: "San Mateo, CA",
   date: "Jan 2026 - Present",
-  [Incoming],
+  [Incoming - Access Control Backend],
 )
 #exp_item(
   name: "HubSpot",
