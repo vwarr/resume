@@ -7,20 +7,26 @@
   phone: "410-831-0503",
   email: "vwarrier@gatech.edu",
   site: "github.com/vwarr",
-  linkedin: "vwarr",
+  linkedin: "linkedin.com/in/vwarr",
 )
 
 #resume_heading[Education]
 #edu_item(
   name: "Georgia Institute of Technology",
-  degree: "Bachelor of Science in Computer Science – Artificial Intelligence & Devices Concentration",
+  degree: "Bachelor of Science in Computer Science – Intelligence & Devices Concentration",
   location: "Atlanta, GA",
   date: "Aug 2023 - May 2027",
-  [Minor in Computing & Business (Denning Technology & Management Scholar) | GPA: 3.85],
   [Relevant Coursework: Data Structures and Algorithms, Design and Analysis of Algorithms, Objects and Design, Systems and Networks, Computer Organization and Programming, Database Systems, Machine Learning],
 )
 
 #resume_heading[Experience]
+#exp_item(
+  name: "Bloomberg",
+  role: "Software Engineering Intern",
+  location: "New York, NY",
+  date: "Jun 2026",
+  [Incoming],
+)
 #exp_item(
   name: "Verkada",
   role: "Software Engineering Intern",
@@ -28,6 +34,15 @@
   date: "Jan 2026 - Present",
   [Incoming - Access Control Backend],
 )
+// #exp_item(
+//   name: "RoboJackets",
+//   role: "Software Engineer",
+//   location: "Atlanta, GA",
+//   date: "Jan. 2025 - Present",
+//   [Spearheaded software development using ROS2 and C++ for Georgia Tech's University Rover Competition team],
+//   [Developed control systems for operating rover in both teleoperated and autonomous mode, utilizing subsystems and sensors to collect and act on 7 different data metrics in driving, arm, and science operations modes],
+//   [Participated in extensive code review and simulation with 15+ other members to ensure cohesive software],
+// )
 #exp_item(
   name: "HubSpot",
   role: "Software Engineering Intern",

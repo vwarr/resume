@@ -26,7 +26,7 @@
     #phone |
     #link("mailto:" + email)[#email] |
     #link("https://" + site)[#site] |
-    #link("https://linkedin.com/in/" + linkedin)[in/#linkedin]
+    #link("https://" + linkedin)[#linkedin]
   ])
   v(5pt)
 }
