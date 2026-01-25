@@ -23,16 +23,16 @@
 #exp_item(
   name: "Bloomberg",
   role: "Software Engineering Intern",
-  location: "New York, NY",
-  date: "Jun 2026",
+  location: "New York City, NY",
+  date: "Jun 2026 - Aug 2026",
   [Incoming],
 )
 #exp_item(
   name: "Verkada",
   role: "Software Engineering Intern",
   location: "San Mateo, CA",
-  date: "Jan 2026 - Present",
-  [Incoming - Access Control Backend],
+  date: "Jan 2026 - May 2026",
+  [Access Control Backend],
 )
 // #exp_item(
 //   name: "RoboJackets",
@@ -56,7 +56,7 @@
   name: "Georgia Tech School of Computing Instruction",
   role: "Undergraduate Teaching Assistant",
   location: "Atlanta, GA",
-  date: "Aug. 2024 - Present",
+  date: "Aug 2024 - Present",
   [Led weekly labs for 40+ students in hands-on exploration of digital logic, ASM, and C programming],
   [Supported a course with 700+ enrolled students by co-designing graded lab assignments, autograders, and detailed solution manuals, streamlining grading, and ensuring consistency across several different course sections],
   [Assisted students through online tickets and office hours to ensure course schedule and minimize repeat questions],
